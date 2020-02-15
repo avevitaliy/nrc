@@ -1,0 +1,32 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.9.1
+Title=Normal RDP Client
+Startup=FMain
+Version=0.0.5
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+Description="RDP Client graphic shell for FreeRDP"
+TabSize=2
+Language=en_US
+Maintainer=Dmitry Bachilo
+Address=admin@allunix.ru
+Url=http://allunix.ru
+License=General Public License
+PackageName=nrc-0.0.5
+Packager=1
+Systems=debian
+Menus=debian:"Applications/Network/Communication"
+Categories=debian:"Network"
+Groups=debian:"net"
+ExtraDependencies=debian:"freerdp2-x11\t\t"
+ExtraFiles=debian:"nrc_client.png\t/usr/share/icons/hicolor/32x32/apps"
+Menus=fedora:"Network/Remote Access"
+Categories=fedora:"Network;RemoteAccess"
+Groups=fedora:"Applications/Internet"
+Menus=suse:"Network/Remote Access"
+Categories=suse:"Network;RemoteAccess"
+Groups=suse:"Productivity/Networking/Other"
+Menus=ubuntu:"Applications/Network/Communication"
+Categories=ubuntu:"Network"
+Groups=ubuntu:"net"
