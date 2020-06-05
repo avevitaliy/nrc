@@ -42,7 +42,7 @@ End
 Public Sub MakeScript()
 Dim passprinter As Integer
 
-runcommand = "xfreerdp /cert-ignore +fonts "
+runcommand = "xfreerdp /floatbar /cert-ignore +fonts "
 If clipTransfer.Value = True Then runcommand &= "+clipboard "
 If secTls.Value = True Then runcommand &= "/sec:tls "
 If homeTransfer.Value = True Then runcommand &= "/drive:Home," & User.Home & " "
