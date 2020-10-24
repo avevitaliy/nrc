@@ -1,5 +1,4 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.9.1
 Title=Normal RDP Client
 Startup=FMain
 Version=0.0.5
@@ -9,11 +8,12 @@ Component=gb.form
 Description="RDP Client graphic shell for FreeRDP"
 TabSize=2
 Language=en_US
-Maintainer=Dmitry Bachilo
-Address=admin@allunix.ru
-Url=http://allunix.ru
+Maintainer=Vitaliy pchelintsev
+Vendor=Deepin
+Address=ave.vitaliy@gmail.com
 License=General Public License
-PackageName=nrc-0.0.5
+Prefix=1
+PackageName=deepin-nrc-0.0.5
 Packager=1
 Systems=debian
 Menus=debian:"Applications/Network/Communication"
